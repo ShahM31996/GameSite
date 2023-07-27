@@ -1,0 +1,25 @@
+First Link Will be Homepage
+Second Link will contain all games
+Third link will contain the new releases
+Fourth link will contain reduced prices
+Fifth link will contain 
+Sixth Link Will contain 
+
+
+1. Work on the Home (GamePage) First
+- Add cards with different genre of games for people to pick so that it would take them to those games
+- The different genres would be - 
+* Action/Adventure
+* Shooting games
+* Racing games
+* Horror games
+* RPG games
+* Strategy games
+
+- Create a slideshow (Carousel) of the: 
+* New Releases of Games 
+* Diving into press Conference to find out the latest information on the games.
+* Reduced Games at Great prices
+
+- Add buttons at the bottom on how to get in touch with Owners of the site. 
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Games</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93bdea1f15.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+     <!--This is where the Navigation bar data is-->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary" bg-dark border-bottom border-bottom-dark data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NX-GEN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Game.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/AllGames.html">All Games</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./NewReleases.html">New Releases</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/ComingSoon.html">Coming Soon</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./ReducedPrices.html">Reduced Prices</a></li>
+                </ul>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./Register.html">Login/Register</a>
+                    </li>
+                    <li class="nav-item" id="cart">
+                      <a class="nav-link active" href="./Basket.html">
+                        <i class="fa-solid fa-cart-shopping"></i><span>0</span>
+                      </a>
+                    </li>
+                </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <header>
+        <h1 >All Games</h1>
+      </header>
+
+      <!-- This is where all the games are-->
+
+      <!-- Card for First Game-->
+
+    <div class="row" id="shop">
+      <div class="card" style="width: 20rem;">
+        <img src="./images/Assassins-Creed-Valhalla.jpg" style="height: 400px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="productName">Assassins Creed Valhalla</h5>
+          <p class="card-text">Explore the World through the Viking Era in Assassin's Creed Valhalla</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="productPrice"><a href="#">PS5 - £49.99 - Add to Cart</a></li>
+          <li class="list-group-item"><a href="#">X/S - £49.99 - Add to Cart</a></li>
+          <li class="list-group-item"><a href="#">Switch - £49.99 - Add to Cart</a></li>
+        </ul>
+      </div>
+      
+      <!-- Card for Second Game-->
+
+      <div class="card" style="width: 20rem;">
+        <img src="./images/Battlefield-2042.jpg" style="height: 400px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Battlefield 2042</h5>
+          <p class="card-text">Complete Chapters in Story-Mode and/or play Online on Battlefield 2042</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="#">PS5 - £49.99 - Add to Cart</a></li>
+          <li class="list-group-item"><a href="#">X/S - £49.99 - Add to Cart</a></li>
+          <li class="list-group-item"><a href="#">Switch - £49.99 - Add to Cart</a></li>
+        </ul>
+      </div>
+
+      <!-- Card for Third Game-->
+
+      <div class="card" style="width: 20rem;">
+        <img src="./images/call-of-duty-modern-warfare-2.jpg" style="height: 400px;" class="card-img-top" id="cod-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Call Of Duty - MW2</h5>
+          <p class="card-text">Whether you're a fan of the Story-Mode or the Mutliplayer, you don't want to miss out 
+            on playing MW2.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">PS5 - £49.99 - Add to Cart</li>
+          <li class="list-group-item">X/S - £49.99 - Add to Cart</li>
+          <li class="list-group-item">Switch - £49.99 - Add to Cart</li>
+        </ul>
+      </div>
+
+      <!-- Card for Fourth Game-->
+
+      <div class="card" style="width: 20rem;">
+        <img src="./images/DeadbyDaylight.jpeg" style="height: 400px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dead by Daylight</h5>
+          <p class="card-text">Stalk, slash, and sacrifice your prey as a monstrous Killer, 
+            or join a team of four to escape.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">PS5 - £49.99</li>
+          <li class="list-group-item">Xbox Series X/S - £49.99</li>
+          <li class="list-group-item">Nintendo Switch - £49.99 </li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <!-- Card for Fifth Game-->
+
+      <div class="card" style="width: 20rem;">
+        <img src="./images/Evil_Dead.jpg" style="height: 400px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Evil Dead</h5>
+          <p class="card-text">Play in the Most Gruesome, terrifying and Scariest Game known to Man 
+            as you try to survive. </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">PS5 - £49.99</li>
+          <li class="list-group-item">Xbox Series X/S - £49.99</li>
+          <li class="list-group-item">Nintendo Switch - £49.99 </li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <!-- Card for Sixth Game-->
+
+      <div class="card" style="width: 20rem;">
+        <img src="./images/final-fantasy-7.jpg" style="height: 400px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Final Fantasy 7 - Remastered</h5>
+          <p class="card-text">Dive into the World of this RPG game as you make you battle monsters and try to surive</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">PS5 - £49.99</li>
+          <li class="list-group-item">Xbox Series X/S - £49.99</li>
+          <li class="list-group-item">Nintendo Switch - £49.99 </li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+
+
+<script scr="index.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

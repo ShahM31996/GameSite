@@ -1,0 +1,95 @@
+
+h1 {
+    text-align: center;
+    background-color: purple;
+}
+
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: blueviolet;
+    padding: 50px 60px 70px;
+    text-align: center;
+
+}
+
+.input-field {
+    background: #ffffff;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+
+}
+
+.input-field i {
+    margin-left: 15px;
+    color: #999;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #000000
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #b90a0a;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.input-group {
+    height: 280px;
+
+}
+
+.cart{
+    background-color: #000000;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+.cartAmount {
+    position: relative;
+    top: -30px;
+    right: 0;
+    left: 35px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
